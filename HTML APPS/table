@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table</title>
+    </head>
+    <body>
+        <!--TABLE TAGS-->>
+        <table border="4"  width="400" height="300" align="CENTER" bordercolor="green" bgcolor="yellow">
+
+            <tr  VALIGN="MIDDLE" ALIGN="CENTER"><td>emp_name</td> <td>emp_id</td><td>emp_salary</td> <td>emp_add</td></tr>
+            
+            <tr VALIGN="MIDDLE" ALIGN="CENTER">	<td>NARESH</td> <td>4251</td>  <td>53000</td>   <td>hybd</td></tr>
+            
+            <tr VALIGN="MIDDLE" ALIGN="CENTER">	<td>LALITHA</td> <td>4256</td> <td>540</td>    <td>AP</td>	</tr>
+            
+            <tr VALIGN="MIDDLE" ALIGN="CENTER">	<td>VAMSI</td>    <td>4285</td> <td>500</td>		<td >UP</td>	</tr>
+            
+            </table>
+            
+    </body>
+    </html>

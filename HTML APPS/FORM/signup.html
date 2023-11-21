@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign-Up Form </title>
+    </head>
+   
+    <body>
+        <center>
+        <h2> Please sign up here!!! </h2>
+        <br>
+        
+        <form method="post">
+           
+            <label for="username">Enter username*:</label>
+            <input type="text" name="username" placeholder="Enter username" required ><br><br>
+            <label for="password">Enter password*:</label>
+            <input type="password" name="password" placeholder="Enter password" required><br><br>
+            <label for="password">Confirm password*:</label>
+            <input type="password" name="password" placeholder="Confirm password" required><br><br>
+            
+             Select gender:<br><br>
+
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male" value="">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female" value="">
+            <label for="gender">Others</label>
+            <input type="radio" name="gender" id="others"><br>
+            <label for="mobile number">Enter Mobile Number:</label>
+            <input type="tel" name="mobile" id="mobile" required><br><br>
+            <label for="dob">Enter DOB:</label>
+            <input type="date" name="date" required><br><br>
+            <label for="address">Enter your Address</label>
+            <textarea name="address" cols="30" rows="10"></textarea><br><br>
+            
+            <label for="qualification">Select your qualification</label>
+            <select name="qualification" id="qual" required>
+                <option value="" disabled selected>Select</option>
+                <option value="B.Tech">BTech</option>
+                <option value="B.Com">BCom</option>
+                <option value="B.E">BE</option>
+                <option value="Diploma">Diploma Polytechnic</option>
+                <option value="X Standard">10<sup>th</sup> Passed</option>
+            </select><br><br>
+            <label for="skills">select your skills</label><br>
+            <select name="skill" id="skill" multiple>
+                <option value="" disabled selected>select</option>
+                <option value="java">Java</option>
+                <option value="c">C</option>
+                <option value="r">R</option>
+                <option value="python">Python</option>
+            </select><br><br>
+             shift prefered:
+            <label for="shift">Day_shift</label>
+            <input type="checkbox" name="Day_shift" id="shift" value=""  required>
+            <label for="shift">Night_shify</label>
+            <input type="checkbox" name="Night_shift" id="shift" value="" required><br><br>
+            upload you resume:
+            <input type="file" name="resume" id="resume" required><br><br>
+            
+            <button type="reset">Reset</button>  
+            <button type="submit">Register</button>
+           
+        </form>
+    </body>
+</html>
